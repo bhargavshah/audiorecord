@@ -18,30 +18,8 @@
         var isIOS = true;
         var fileObj = null;
 
-        function onBodyLoad()
-        {        
-            
-            
-        }
-
         $(document).ready(function(){
             document.addEventListener("deviceready", onDeviceReady, false);
-            // $("#stopBtn").hide();
-            // $("#playBtn").hide();
-
-            // //validation to check if device is ready is skipped
-
-            // $("#recordBtn").click(function(){
-            //     record();                  
-            // });
-
-            // $("#playBtn").click(function(){
-            //     play();
-            // });
-
-            // $("#stopBtn").click(function(){
-            //     stop();
-            // });
         });
 
         function record()
@@ -81,6 +59,7 @@
                 }, onError); //of requestFileSystem
             } else //it's Android
             {
+                // Haven't quite reached here yet
                 mediaVar = new Media( recordFileName, function(){
                     log("Media created successfully");
                 }, onError, mediaStatusCallback); 
@@ -108,8 +87,6 @@
                 log("Nothing stopped");
             }
             document.getElementById("logger").innerHTML = JSON.stringify(fileObj);
-            // startFileManipulation();
-            alert("stopped");
             $("#recordBtn").show();
             $("#stopBtn").hide();
             $("#playBtn").show();
