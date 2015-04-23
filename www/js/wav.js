@@ -15,6 +15,9 @@ NOTE: Does not auto-correct:
 @author  David Lindkvist
 @twitter ffdead
 
+Note : This util was originally created by the above author. For my needs, I needed to get the samples and hence I've modified it.
+The original repo is here https://github.com/ffdead/wav.js
+
 */
 
 
@@ -36,13 +39,16 @@ function wav(file) {
   this.error              = undefined;
   
   // original File and loaded ArrayBuffer
-  this.file          = file instanceof Blob ? file : undefined;
+  this.file          = file instanceof File ? file : undefined;
   this.buffer        = file instanceof ArrayBuffer ? file : undefined;
-  alert("wav.js " + this.file);
+
+  // alert('file = ' + file);
   
   // format
   this.chunkID       = undefined; // must be RIFF
+  this.chunkSize     = undefined;
   this.format        = undefined; // must be WAVE
+  this.blockAlign    = undefined;
   this.bitsPerSample = undefined; // 8 bits = 8, 16 bits = 16, etc.
   
   // data chunk
@@ -68,9 +74,7 @@ wav.prototype.peek = function () {
   var reader = new FileReader();
   var that = this;
   
-  // only load the first 44 bytes of the header
-  var headerBlob = this.sliceFile(0, 44);
-  reader.readAsArrayBuffer(headerBlob);
+  reader.readAsArrayBuffer(this.file);
   
   reader.onloadend = function() {  
     that.buffer = this.result;
@@ -80,9 +84,12 @@ wav.prototype.peek = function () {
 
 wav.prototype.parseArrayBuffer = function () {
   try {
+    // alert('reached parseArrayBuffer');
     this.parseHeader();
     this.parseData();
+    this.parseSamples();
     this.readyState = this.DONE;
+    // alert('done parseArrayBuffer');
   }
   catch (e) {
     this.readyState = this.UNSUPPORTED_FORMAT;
@@ -103,10 +110,14 @@ wav.prototype.parseArrayBuffer = function () {
 wav.prototype.parseHeader = function () {
    
   this.chunkID       = this.readText(0, 4);
+  this.chunkSize     = this.readDecimal(4, 4);
   if (this.chunkID !== 'RIFF') throw 'NOT_SUPPORTED_FORMAT';
     
   this.format        = this.readText(8, 4);
   if (this.format !== 'WAVE') throw 'NOT_SUPPORTED_FORMAT';
+
+  // == NumChannels * BitsPerSample/8
+  this.blockAlign    = this.readDecimal(32, 2); 
 
   this.bitsPerSample = this.readDecimal(34, 2);
 };
@@ -116,37 +127,33 @@ wav.prototype.parseHeader = function () {
  */
 wav.prototype.parseData = function () {
 
-  var chunkType = this.readText(36, 4);
-  var chunkSize = this.readDecimal(40, 4);
-  
-  // only support files where data chunk is first (canonical format)
-  if (chunkType === 'data') {
-    this.dataLength = chunkSize;
-    this.dataOffset = 44;
+  var foundData = false;
+
+  for (var i = 36; i <= this.chunkSize; i = i + 4 ) {
+    if (this.readText(i, 4) === 'data') {
+      this.dataLength = this.readDecimal(i + 4, 4);
+      this.dataOffset = i + 8;
+      foundData = true;
+    }
   }
-  else {
-    // duration cant be calculated && slice will not work
-    throw 'NOT_CANONICAL_FORMAT: unsupported "' + chunkType + '"" chunk - was expecting data';
+
+  // alert('foundData' + foundData);
+
+  if ( ! foundData ) {
+      throw 'DATA_NOT_FOUND';
   }
+
 };
 
  /** direct access to  samples
  **/
-wav.prototype.getSamples = function () {
+wav.prototype.parseSamples = function () {
 
-  // TODO load data chunk into buffer
-  var reader = new FileReader();
-  reader.readAsArrayBuffer(this.file);
+  if (this.bitsPerSample === 8)
+    this.dataSamples = new Uint8Array(this.buffer, this.dataOffset);
+  else if (this.bitsPerSample === 16)
+    this.dataSamples = new Int16Array(this.buffer, this.dataOffset);
 
-  var that = this;
-  reader.onloadend = function() {
-    that.buffer = this.result;
-    if (that.bitsPerSample === 8)
-    that.dataSamples = new Uint8Array(that.buffer, that.dataOffset);
-  else if (that.bitsPerSample === 16)
-    that.dataSamples = new Int16Array(that.buffer, that.dataOffset);
-  };
-  
 }
 
 

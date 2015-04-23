@@ -8,6 +8,8 @@
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/wav.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/encoder.js"></script>
+    <script type="text/javascript" src="js/speex.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript">
 
@@ -16,32 +18,13 @@
         var recordFileName = "recording.wav";
         var status = null;
         var isIOS = true;
+        var _parsedWav = null;
+        var _fileEntry = null;
         var fileObj = null;
-
-        function onBodyLoad()
-        {        
-            
-            
-        }
+        var _root = null;
 
         $(document).ready(function(){
             document.addEventListener("deviceready", onDeviceReady, false);
-            // $("#stopBtn").hide();
-            // $("#playBtn").hide();
-
-            // //validation to check if device is ready is skipped
-
-            // $("#recordBtn").click(function(){
-            //     record();                  
-            // });
-
-            // $("#playBtn").click(function(){
-            //     play();
-            // });
-
-            // $("#stopBtn").click(function(){
-            //     stop();
-            // });
         });
 
         function record()
@@ -66,12 +49,13 @@
 
             if (isIOS) {
                 //first create the file
-                window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem){
+                window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function(fileSystem){
+                    _root = fileSystem.root;
                     fileSystem.root.getFile(recordFileName, {
                         create: true,
                         exclusive: false
                     }, function(fileEntry){
-                        fileEntry.file(fileSuccess, fileFailure);
+                        _fileEntry = fileEntry;
                         log("File " + recordFileName + " created at " + fileEntry.fullPath);
                         mediaVar = new Media(fileEntry.fullPath, function(){
                             log("Media created successfully");
@@ -81,6 +65,7 @@
                 }, onError); //of requestFileSystem
             } else //it's Android
             {
+                // Haven't quite reached here yet
                 mediaVar = new Media( recordFileName, function(){
                     log("Media created successfully");
                 }, onError, mediaStatusCallback); 
@@ -97,6 +82,12 @@
             {
                 mediaVar.stopRecord();
                 log("Recording stopped");
+                // Get a directory reader
+                var directoryReader = _root.createReader();
+
+                // Get a list of all the entries in the directory
+                directoryReader.readEntries(readEntriessuccess,readEntriesfail);
+
             }
             else if (status == 'playing')
             {
@@ -107,9 +98,6 @@
             {
                 log("Nothing stopped");
             }
-            document.getElementById("logger").innerHTML = JSON.stringify(fileObj);
-            // startFileManipulation();
-            alert("stopped");
             $("#recordBtn").show();
             $("#stopBtn").hide();
             $("#playBtn").show();
@@ -157,30 +145,98 @@
                 console.info(message);
         }
 
+        function logger(obj) {
+            document.getElementById("logger").innerHTML = JSON.stringify(obj);
+        }
+
         function startFileManipulation(file) {
+            $(document).on('WAVE_PARSED', getDataBuffer);
             try {
-                var parsedWav = new wav(file);
+                // alert('parsing wave');
+                _parsedWav = new wav(file);
             }
             catch(e) {
-                alert(JSON.stringify(e));
+                alert("Error parsing wav" + JSON.stringify(e));
             }
-            parsedWav.onloadend = function () {
+            var that = this;
+            _parsedWav.onloadend = function () {
                 // 'this' refers to the wav instance
-                console.log(this);
-                var samples = this.getSamples();
-                alert(samples);
-            }; 
+                // alert('wav parsed');
+                $(document).trigger('WAVE_PARSED');
+            };
+        }
+
+        function getDataBuffer() {
+            // alert('inside getDataBuffer');
+            var reader = new FileReader();
+            var that = this;
+          
+            try {
+                var dataBlob = _parsedWav.file.slice(_parsedWav.dataOffset);
+            }
+            catch(e) {
+                alert('error slicing datablob' + JSON.stringify(e));
+            }
+            // only load the data
+            
+
+            reader.readAsArrayBuffer(dataBlob);
+          
+            reader.onloadend = function() {  
+                // alert(_parsedWav);
+                _parsedWav.dataBuffer = this.result;
+                // alert('go ahead with encoding');
+                canYouEncode();
+              };
+        }
+
+        function canYouEncode() {
+            try {
+                // alert('canYouEncode');
+                var encoder = new Encoder();
+                encoder.encodeSPXB64( _parsedWav.dataBuffer, 8);
+            }
+            catch (e) {
+                alert('error encoding' + JSON.stringify(e));
+            }
+            
+            $(document).on('tn.recorder.encoded', function() { alert('tn.recorder.encoded');});
+        }
+
+        function mergeBuffers( buffers, len ) {
+            var result = new Float32Array( len );
+            var offset = 0;
+            for( var i = 0; i < buffers.length; i++ ) {
+                var buffer = buffers[ i ];
+                result.set( buffer, offset );
+                offset += buffer.length;
+            }
+            return result;
         }
 
         function fileSuccess(file) {
-            alert("file success");
-            alert("file " + JSON.stringify(file));
-            fileObj = file;
-            // startFileManipulation(file);
+            file.type = "audio/wav";
+            // alert("file success");
+            // alert("file " + JSON.stringify(file));
+            startFileManipulation(file);
         }
 
         function fileFailure() {
             alert("file failure");
+        }
+
+        function readEntriessuccess(entries) {
+            var i;
+            for (i=0; i<entries.length; i++) {
+                // alert("File " + i + " : " + entries[i].name);
+                if (entries[i].name === recordFileName) {
+                    entries[i].file(fileSuccess, fileFailure);
+                }
+            }
+        }
+
+        function readEntriesfail (error) {
+            alert("Failed to list directory contents: " + error.code);
         }
 
         function onDeviceReady()
