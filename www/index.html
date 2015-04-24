@@ -145,79 +145,23 @@
                 console.info(message);
         }
 
-        function logger(obj) {
-            document.getElementById("logger").innerHTML = JSON.stringify(obj);
-        }
-
         function startFileManipulation(file) {
-            $(document).on('WAVE_PARSED', getDataBuffer);
-            try {
-                // alert('parsing wave');
-                _parsedWav = new wav(file);
-            }
-            catch(e) {
-                alert("Error parsing wav" + JSON.stringify(e));
-            }
-            var that = this;
+            _parsedWav = new wav(file);
             _parsedWav.onloadend = function () {
-                // 'this' refers to the wav instance
-                // alert('wav parsed');
-                $(document).trigger('WAVE_PARSED');
+                letsEncode();
             };
         }
 
-        function getDataBuffer() {
-            // alert('inside getDataBuffer');
-            var reader = new FileReader();
-            var that = this;
-          
-            try {
-                var dataBlob = _parsedWav.file.slice(_parsedWav.dataOffset);
-            }
-            catch(e) {
-                alert('error slicing datablob' + JSON.stringify(e));
-            }
-            // only load the data
-            
-
-            reader.readAsArrayBuffer(dataBlob);
-          
-            reader.onloadend = function() {  
-                // alert(_parsedWav);
-                _parsedWav.dataBuffer = this.result;
-                // alert('go ahead with encoding');
-                canYouEncode();
-              };
-        }
-
-        function canYouEncode() {
-            try {
-                // alert('canYouEncode');
-                var encoder = new Encoder();
-                encoder.encodeSPXB64( _parsedWav.dataBuffer, 8);
-            }
-            catch (e) {
-                alert('error encoding' + JSON.stringify(e));
-            }
-            
-            $(document).on('tn.recorder.encoded', function() { alert('tn.recorder.encoded');});
-        }
-
-        function mergeBuffers( buffers, len ) {
-            var result = new Float32Array( len );
-            var offset = 0;
-            for( var i = 0; i < buffers.length; i++ ) {
-                var buffer = buffers[ i ];
-                result.set( buffer, offset );
-                offset += buffer.length;
-            }
-            return result;
+        function letsEncode() {
+            $(document).on('tn.recorder.encoded', function(e, responseData) {
+                alert('Encoding Done : answered = ' + responseData.answered + ' responseData = ' + (responseData.data ? 'present' : 'absent'));
+            });
+            var encoder = new Encoder();
+            encoder.encodeSPXB64( _parsedWav.dataSamples, 8);
         }
 
         function fileSuccess(file) {
             file.type = "audio/wav";
-            // alert("file success");
-            // alert("file " + JSON.stringify(file));
             startFileManipulation(file);
         }
 
@@ -268,8 +212,6 @@
             <input type="button" name="recordBtn" id="recordBtn" value="Record">
             <input type="button" name="stopBtn" id="stopBtn" value="Stop">
             <input type="button" name="playBtn" id="playBtn" value="Play">
-        </div>
-        <div id="logger" style="position:absolute;height:200px;width:300px;top:200px;border:solid black 1px;overflow:scroll">
         </div>
     </body>
 </html>

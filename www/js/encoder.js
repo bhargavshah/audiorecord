@@ -1,12 +1,10 @@
         function Encoder( args ) {
 
             function encodeSPXB64( samples, spxQuality ) {     
-                alert('reached encoding function');          
                 var workerBlob = URL.createObjectURL( new Blob([ '(', 
                     function() {
                         self.addEventListener('message', function(e) {
-                            importScripts('speex.min.js');
-                            alert("inside worker");
+                            importScripts(e.data.baseURL + '/Users/pearson/Documents/Bhargav/hello/www/js/speex.min.js');
                             var samples = e.data.samples;
                             var spx = new Speex( { quality: e.data.spxQuality } ); 
                             var shorts = new Int16Array( samples.length );
@@ -29,7 +27,6 @@
                 var worker = new Worker( workerBlob );
 
                 worker.addEventListener('message', function(e) {
-                    alert('inside btoa');
                     var b64SPX = window.btoa(e.data);
                     $(document).trigger( 'tn.recorder.encoded', {'data':[ b64SPX ],answered:true }  );
                 });
@@ -45,8 +42,7 @@
                     }
                 }
 
-                worker.postMessage( { 'samples': samples, 'spxQuality': spxQuality, 'baseURL': "" } );
-                alert('spxQuality' + spxQuality);
+                worker.postMessage( { 'samples': samples, 'spxQuality': spxQuality, 'baseURL': window.location.origin } );
                 URL.revokeObjectURL( workerBlob );
             };
 
