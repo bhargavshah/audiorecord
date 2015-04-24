@@ -154,7 +154,7 @@
 
         function letsEncode() {
             $(document).on('tn.recorder.encoded', function(e, responseData) {
-                alert('Encoding Done : answered = ' + responseData.answered + ' responseData = ' + (responseData.data ? 'present' : 'absent'));
+                logger(responseData);
             });
             var encoder = new Encoder();
             encoder.encodeSPXB64( _parsedWav.dataSamples, 8);
@@ -163,6 +163,7 @@
         function fileSuccess(file) {
             file.type = "audio/wav";
             startFileManipulation(file);
+            alert(file);
         }
 
         function fileFailure() {
@@ -204,6 +205,10 @@
             });
         }
 
+        function logger(obj) {
+            document.getElementById("logger").innerHTML = JSON.stringify(obj);
+        }
+
     </script>
   </head>
     <body>
@@ -212,6 +217,8 @@
             <input type="button" name="recordBtn" id="recordBtn" value="Record">
             <input type="button" name="stopBtn" id="stopBtn" value="Stop">
             <input type="button" name="playBtn" id="playBtn" value="Play">
+        </div>
+        <div id="logger" style="position:absolute;height:200px;width:300px;top:200px;border:solid black 1px;overflow:scroll">
         </div>
     </body>
 </html>

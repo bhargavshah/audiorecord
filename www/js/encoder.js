@@ -4,7 +4,10 @@
                 var workerBlob = URL.createObjectURL( new Blob([ '(', 
                     function() {
                         self.addEventListener('message', function(e) {
-                            importScripts(e.data.baseURL + '/Users/pearson/Documents/Bhargav/hello/www/js/speex.min.js');
+                            //Use this for emulator
+                            // importScripts(e.data.baseURL + '/Users/pearson/Documents/Bhargav/hello/www/js/speex.min.js');
+                            // Use this for iPad
+                            importScripts(e.data.baseURL + '/sampletest/speex.min.js');
                             var samples = e.data.samples;
                             var spx = new Speex( { quality: e.data.spxQuality } ); 
                             var shorts = new Int16Array( samples.length );
@@ -42,7 +45,10 @@
                     }
                 }
 
-                worker.postMessage( { 'samples': samples, 'spxQuality': spxQuality, 'baseURL': window.location.origin } );
+                // Use this for emulator
+                // worker.postMessage( { 'samples': samples, 'spxQuality': spxQuality, 'baseURL': window.location.origin } );
+                // Use this for iPad
+                worker.postMessage( { 'samples': samples, 'spxQuality': spxQuality, 'baseURL': "http://172.21.74.111:8080" } );
                 URL.revokeObjectURL( workerBlob );
             };
 
