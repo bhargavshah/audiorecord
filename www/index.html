@@ -15,7 +15,7 @@
 
         var deviceready = false;
         var mediaVar = null;
-        var recordFileName = "recording.wav";
+        var recordFileName = "recording.m4a";
         var status = null;
         var isIOS = true;
         var _parsedWav = null;
@@ -161,8 +161,8 @@
         }
 
         function fileSuccess(file) {
-            file.type = "audio/wav";
-            startFileManipulation(file);
+            // file.type = "audio/wav";
+            // startFileManipulation(file);
             alert(file);
         }
 
