@@ -160,10 +160,88 @@
             encoder.encodeSPXB64( _parsedWav.dataSamples, 8);
         }
 
+        function encoding(file) {
+
+            // Read as data url way
+            // var reader = new FileReader();
+            // reader.onloadend = function () {
+            // alert("Original " + reader.result);
+            // var base64 = reader.result;
+            // var enc = window.btoa(reader.result);
+            // console.log("atob btoa passed " + window.atob(enc));
+            // window.open("data:application/octet-stream;base64," + base64);
+            // }
+            // reader.readAsDataURL(file);
+
+
+            // Binary to ASCII
+            // try{
+            //     var edata = btoa(file);
+            //     logger(edata);
+            // }
+            // catch(e) {
+            //     alert('no btoa right ' + e);
+            // }
+
+            // Read as binary string way
+            // var reader = new FileReader();
+            // reader.onloadend = function (evt) {
+            // var binaryString = evt.target.result;
+            // logger(btoa(binaryString));
+            // }
+            // reader.readAsText(file);
+
+            // Read string.fromCharCode way
+            var reader = new FileReader();
+            var buf;
+            reader.onloadend = function(e) {
+                buf = e.target.result;
+                var bufStr = ab2str(buf);
+                // var enc = btoa(bufStr);
+                // logger(enc); 
+                logger(bufStr);
+                // alert(typeof str2ab(bufStr))
+            }
+            reader.readAsArrayBuffer(file);
+            
+        }
+
+        function ab2str(buf) {
+            try {
+                var typedArray = new Uint8Array(buf);
+                var str = "";
+                for (var i=1, tlen=typedArray.length; i < tlen; i++) {
+                    str += String.fromCharCode(typedArray[i]);
+                }
+                var base64str = window.btoa(str);
+            }
+            catch(e) {
+                alert("ab2str " + e + " typedArray length = " + typedArray.length);
+            }
+          return base64str;
+        }
+
+        function str2ab(str) {
+            try {
+                var buf = new ArrayBuffer(str.length*2); // 2 bytes for each char
+                var bufView = new Uint8Array(buf);
+                for (var i=0, strLen=str.length; i < strLen; i++) {
+                    bufView[i] = str.charCodeAt(i);
+                }
+                return buf;
+            }
+            catch(e) {
+                alert(e);
+            }
+          
+          
+        }
+
         function fileSuccess(file) {
             // file.type = "audio/wav";
             // startFileManipulation(file);
-            alert(file);
+            logger(file);
+            encoding(file);
         }
 
         function fileFailure() {
