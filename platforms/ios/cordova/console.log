@@ -3981,3 +3981,715 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-05-12 20:44:23.684 HelloWorld[1112:14469] Started recording audio sample '/recording.m4a'
 2015-05-12 20:44:29.589 HelloWorld[1112:14469] Stopped recording audio sample '/recording.m4a'
 2015-05-12 20:44:29.594 HelloWorld[1112:14469] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:27:16.722 HelloWorld[560:5050] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/B85893C0-07FB-4ECA-BA41-32C0061CF3A5/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:27:17.176 HelloWorld[560:5050] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:27:17.177 HelloWorld[560:5050] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:27:17.210 HelloWorld[560:5050] Unlimited access to network resources
+2015-05-13 16:27:17.224 HelloWorld[560:5050] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:27:17.879 HelloWorld[560:5050] [CDVTimer][file] 26.039004ms
+2015-05-13 16:27:17.880 HelloWorld[560:5050] [CDVTimer][TotalPluginStartup] 26.241004ms
+2015-05-13 16:27:18.367 HelloWorld[560:5050] Resetting plugins due to page load.
+2015-05-13 16:27:18.615 HelloWorld[560:5050] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/9E9A96EC-97E5-4775-90FC-EA6BF6046C18/HelloWorld.app/www/index.html
+2015-05-13 16:27:23.465 HelloWorld[560:5050] Started recording audio sample '/recording.m4a'
+2015-05-13 16:27:23.466 HelloWorld[560:5050] THREAD WARNING: ['Media'] took '1654.803955' ms. Plugin should use a background thread.
+2015-05-13 16:27:24.612 HelloWorld[560:5050] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:27:24.619 HelloWorld[560:5050] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:27:34.027 HelloWorld[560:5050] Started recording audio sample '/recording.m4a'
+2015-05-13 16:27:34.027 HelloWorld[560:5050] THREAD WARNING: ['Media'] took '11.458984' ms. Plugin should use a background thread.
+2015-05-13 16:27:38.348 HelloWorld[560:5050] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:27:38.353 HelloWorld[560:5050] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:27:47.680 HelloWorld[560:5050] Started recording audio sample '/recording.m4a'
+2015-05-13 16:28:15.597 HelloWorld[560:5050] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:28:15.601 HelloWorld[560:5050] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:30:43.100 HelloWorld[734:6705] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/FEE9CFAF-9FC3-4B5F-9A1A-179960023924/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:30:43.236 HelloWorld[734:6705] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:30:43.236 HelloWorld[734:6705] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:30:43.238 HelloWorld[734:6705] Unlimited access to network resources
+2015-05-13 16:30:43.241 HelloWorld[734:6705] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:30:43.348 HelloWorld[734:6705] [CDVTimer][file] 1.976013ms
+2015-05-13 16:30:43.348 HelloWorld[734:6705] [CDVTimer][TotalPluginStartup] 2.168000ms
+2015-05-13 16:30:43.406 HelloWorld[734:6705] Resetting plugins due to page load.
+2015-05-13 16:30:43.534 HelloWorld[734:6705] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/1BE71233-D27F-4A64-B7B7-6127513664FB/HelloWorld.app/www/index.html
+2015-05-13 16:30:45.136 HelloWorld[734:6705] Started recording audio sample '/recording.m4a'
+2015-05-13 16:30:45.136 HelloWorld[734:6705] THREAD WARNING: ['Media'] took '57.787842' ms. Plugin should use a background thread.
+2015-05-13 16:30:51.085 HelloWorld[734:6705] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:30:51.091 HelloWorld[734:6705] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:31:27.418 HelloWorld[876:7311] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/6B27391B-F296-4B95-AC24-91308FA52447/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:31:27.554 HelloWorld[876:7311] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:31:27.554 HelloWorld[876:7311] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:31:27.556 HelloWorld[876:7311] Unlimited access to network resources
+2015-05-13 16:31:27.560 HelloWorld[876:7311] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:31:27.667 HelloWorld[876:7311] [CDVTimer][file] 2.332985ms
+2015-05-13 16:31:27.668 HelloWorld[876:7311] [CDVTimer][TotalPluginStartup] 2.550006ms
+2015-05-13 16:31:27.733 HelloWorld[876:7311] Resetting plugins due to page load.
+2015-05-13 16:31:27.860 HelloWorld[876:7311] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/F630B6BA-B819-466A-8075-B3387E84F537/HelloWorld.app/www/index.html
+2015-05-13 16:31:32.583 HelloWorld[876:7311] Started recording audio sample '/recording.m4a'
+2015-05-13 16:31:32.583 HelloWorld[876:7311] THREAD WARNING: ['Media'] took '57.403809' ms. Plugin should use a background thread.
+2015-05-13 16:31:34.341 HelloWorld[876:7311] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:31:34.347 HelloWorld[876:7311] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:31:40.243 HelloWorld[876:7311] Playing audio sample '/recording.m4a'
+2015-05-13 16:31:40.257 HelloWorld[876:7311] THREAD WARNING: ['Media'] took '33.462891' ms. Plugin should use a background thread.
+2015-05-13 16:31:42.069 HelloWorld[876:7311] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:31:46.910 HelloWorld[876:7311] Started recording audio sample '/recording.m4a'
+2015-05-13 16:31:49.684 HelloWorld[876:7311] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:31:49.689 HelloWorld[876:7311] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:31:51.845 HelloWorld[876:7311] Playing audio sample '/recording.m4a'
+2015-05-13 16:31:51.856 HelloWorld[876:7311] THREAD WARNING: ['Media'] took '11.272949' ms. Plugin should use a background thread.
+2015-05-13 16:31:53.667 HelloWorld[876:7311] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:31:56.720 HelloWorld[876:7311] Started recording audio sample '/recording.m4a'
+2015-05-13 16:31:59.372 HelloWorld[876:7311] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:31:59.377 HelloWorld[876:7311] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:32:00.300 HelloWorld[876:7311] Playing audio sample '/recording.m4a'
+2015-05-13 16:32:02.119 HelloWorld[876:7311] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:32:05.839 HelloWorld[876:7311] Playing audio sample '/recording.m4a'
+2015-05-13 16:32:05.858 HelloWorld[876:7311] THREAD WARNING: ['Media'] took '18.094971' ms. Plugin should use a background thread.
+2015-05-13 16:32:07.669 HelloWorld[876:7311] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:32:09.799 HelloWorld[876:7311] Playing audio sample '/recording.m4a'
+2015-05-13 16:32:09.817 HelloWorld[876:7311] THREAD WARNING: ['Media'] took '17.374023' ms. Plugin should use a background thread.
+2015-05-13 16:32:11.628 HelloWorld[876:7311] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:32:13.280 HelloWorld[876:7311] Playing audio sample '/recording.m4a'
+2015-05-13 16:32:15.099 HelloWorld[876:7311] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:32:29.145 HelloWorld[954:7920] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/19DB7140-A6D3-4024-B7D1-CE2D3CE9F0B5/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:32:29.279 HelloWorld[954:7920] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:32:29.280 HelloWorld[954:7920] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:32:29.282 HelloWorld[954:7920] Unlimited access to network resources
+2015-05-13 16:32:29.285 HelloWorld[954:7920] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:32:29.393 HelloWorld[954:7920] [CDVTimer][file] 1.959026ms
+2015-05-13 16:32:29.393 HelloWorld[954:7920] [CDVTimer][TotalPluginStartup] 2.151012ms
+2015-05-13 16:32:29.456 HelloWorld[954:7920] Resetting plugins due to page load.
+2015-05-13 16:32:29.575 HelloWorld[954:7920] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/10245FFD-967A-415B-86CE-013982F4501B/HelloWorld.app/www/index.html
+2015-05-13 16:32:33.087 HelloWorld[954:7920] Started recording audio sample '/recording.m4a'
+2015-05-13 16:32:33.087 HelloWorld[954:7920] THREAD WARNING: ['Media'] took '58.608887' ms. Plugin should use a background thread.
+2015-05-13 16:32:40.245 HelloWorld[954:7920] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:32:40.250 HelloWorld[954:7920] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:32:41.756 HelloWorld[954:7920] Playing audio sample '/recording.m4a'
+2015-05-13 16:32:41.760 HelloWorld[954:7920] THREAD WARNING: ['Media'] took '11.479248' ms. Plugin should use a background thread.
+2015-05-13 16:32:48.946 HelloWorld[954:7920] Finished playing audio sample '/recording.m4a'
+2015-05-13 16:55:06.148 HelloWorld[1264:15000] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/DC3C8759-B31A-4E53-BA0D-C70198A894D3/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:55:06.235 HelloWorld[1264:15000] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:55:06.236 HelloWorld[1264:15000] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:55:06.248 HelloWorld[1264:15000] Unlimited access to network resources
+2015-05-13 16:55:06.251 HelloWorld[1264:15000] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:55:06.347 HelloWorld[1264:15000] [CDVTimer][file] 12.458026ms
+2015-05-13 16:55:06.347 HelloWorld[1264:15000] [CDVTimer][TotalPluginStartup] 12.656987ms
+2015-05-13 16:55:06.514 HelloWorld[1264:15000] Resetting plugins due to page load.
+2015-05-13 16:55:06.643 HelloWorld[1264:15000] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/FECD969D-7B7C-45C9-A58E-FC74EF53E77D/HelloWorld.app/www/index.html
+2015-05-13 16:55:14.699 HelloWorld[1404:15329] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/1E541BE5-B2A3-42B2-9333-5C05D286682C/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:55:14.822 HelloWorld[1404:15329] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:55:14.823 HelloWorld[1404:15329] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:55:14.833 HelloWorld[1404:15329] Unlimited access to network resources
+2015-05-13 16:55:14.836 HelloWorld[1404:15329] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:55:14.941 HelloWorld[1404:15329] [CDVTimer][file] 2.057970ms
+2015-05-13 16:55:14.942 HelloWorld[1404:15329] [CDVTimer][TotalPluginStartup] 2.245009ms
+2015-05-13 16:55:15.009 HelloWorld[1404:15329] Resetting plugins due to page load.
+2015-05-13 16:55:15.145 HelloWorld[1404:15329] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/C6938EDA-AFA9-45BE-8436-BE1F23F03AE8/HelloWorld.app/www/index.html
+2015-05-13 16:55:17.228 HelloWorld[1404:15329] Started recording audio sample '/recording.m4a'
+2015-05-13 16:55:17.228 HelloWorld[1404:15329] THREAD WARNING: ['Media'] took '58.565918' ms. Plugin should use a background thread.
+2015-05-13 16:55:20.341 HelloWorld[1404:15329] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:55:20.346 HelloWorld[1404:15329] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:55:53.217 HelloWorld[1547:15936] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/3E61B8B1-CE89-425E-BF98-A7930B609786/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:55:53.337 HelloWorld[1547:15936] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:55:53.338 HelloWorld[1547:15936] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:55:53.358 HelloWorld[1547:15936] Unlimited access to network resources
+2015-05-13 16:55:53.362 HelloWorld[1547:15936] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:55:53.461 HelloWorld[1547:15936] [CDVTimer][file] 1.966000ms
+2015-05-13 16:55:53.462 HelloWorld[1547:15936] [CDVTimer][TotalPluginStartup] 2.147973ms
+2015-05-13 16:55:53.527 HelloWorld[1547:15936] Resetting plugins due to page load.
+2015-05-13 16:55:53.654 HelloWorld[1547:15936] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/2B43442B-87BD-478E-B88F-B919C1DEFA61/HelloWorld.app/www/index.html
+2015-05-13 16:55:55.495 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:55:55.496 HelloWorld[1547:15936] THREAD WARNING: ['Media'] took '57.829102' ms. Plugin should use a background thread.
+2015-05-13 16:55:56.717 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:55:56.722 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:56:29.547 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:56:29.548 HelloWorld[1547:15936] THREAD WARNING: ['Media'] took '11.945801' ms. Plugin should use a background thread.
+2015-05-13 16:56:36.812 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:56:36.817 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:57:18.495 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:57:18.496 HelloWorld[1547:15936] THREAD WARNING: ['Media'] took '11.192139' ms. Plugin should use a background thread.
+2015-05-13 16:57:20.652 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:57:20.657 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:57:22.082 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:57:26.451 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:57:26.456 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:57:30.151 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:57:34.612 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:57:34.617 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:57:37.466 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:57:42.444 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:57:42.450 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:57:57.261 HelloWorld[1547:15936] Started recording audio sample '/recording.m4a'
+2015-05-13 16:58:08.044 HelloWorld[1547:15936] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:58:08.049 HelloWorld[1547:15936] Finished recording audio sample '/recording.m4a'
+2015-05-13 16:58:54.112 HelloWorld[1708:17159] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/0C5AA12D-4EE5-4453-8516-C58C573BF8AC/Library/Cookies/Cookies.binarycookies
+2015-05-13 16:58:54.251 HelloWorld[1708:17159] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 16:58:54.251 HelloWorld[1708:17159] Multi-tasking -> Device: YES, App: YES
+2015-05-13 16:58:54.261 HelloWorld[1708:17159] Unlimited access to network resources
+2015-05-13 16:58:54.265 HelloWorld[1708:17159] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 16:58:54.368 HelloWorld[1708:17159] [CDVTimer][file] 2.161980ms
+2015-05-13 16:58:54.368 HelloWorld[1708:17159] [CDVTimer][TotalPluginStartup] 2.376974ms
+2015-05-13 16:58:54.428 HelloWorld[1708:17159] Resetting plugins due to page load.
+2015-05-13 16:58:54.569 HelloWorld[1708:17159] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/A165F75C-332C-4C4D-B53C-C6ECAF386A43/HelloWorld.app/www/index.html
+2015-05-13 16:58:57.503 HelloWorld[1708:17159] Started recording audio sample '/recording.m4a'
+2015-05-13 16:58:57.503 HelloWorld[1708:17159] THREAD WARNING: ['Media'] took '57.890137' ms. Plugin should use a background thread.
+2015-05-13 16:58:59.045 HelloWorld[1708:17159] Stopped recording audio sample '/recording.m4a'
+2015-05-13 16:58:59.051 HelloWorld[1708:17159] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:00:08.104 HelloWorld[1856:18093] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/C26B8646-A95E-41C6-ADBA-30FC3A18B663/Library/Cookies/Cookies.binarycookies
+2015-05-13 17:00:08.186 HelloWorld[1856:18093] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 17:00:08.186 HelloWorld[1856:18093] Multi-tasking -> Device: YES, App: YES
+2015-05-13 17:00:08.198 HelloWorld[1856:18093] Unlimited access to network resources
+2015-05-13 17:00:08.201 HelloWorld[1856:18093] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 17:00:08.326 HelloWorld[1856:18093] [CDVTimer][file] 3.160000ms
+2015-05-13 17:00:08.326 HelloWorld[1856:18093] [CDVTimer][TotalPluginStartup] 3.416002ms
+2015-05-13 17:00:08.430 HelloWorld[1856:18093] Resetting plugins due to page load.
+2015-05-13 17:00:08.645 HelloWorld[1856:18093] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/8B6B1A98-CEEC-4F85-88F1-E54692BF167E/HelloWorld.app/www/index.html
+2015-05-13 17:00:10.827 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:00:10.828 HelloWorld[1856:18093] THREAD WARNING: ['Media'] took '94.871826' ms. Plugin should use a background thread.
+2015-05-13 17:00:12.078 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:00:12.083 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:00:14.600 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:00:18.500 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:00:18.505 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:00:25.305 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:00:31.933 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:00:31.938 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:00:35.951 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:00:35.952 HelloWorld[1856:18093] THREAD WARNING: ['Media'] took '11.939941' ms. Plugin should use a background thread.
+2015-05-13 17:00:47.317 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:00:47.321 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:01:00.378 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:01:15.452 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:01:15.457 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:01:30.309 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:02:00.284 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:02:00.289 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:02:15.576 HelloWorld[1856:18093] Started recording audio sample '/recording.m4a'
+2015-05-13 17:03:22.533 HelloWorld[1856:18093] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:03:22.538 HelloWorld[1856:18093] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:03:30.093 HelloWorld[1856:18093] Playing audio sample '/recording.m4a'
+2015-05-13 17:03:30.102 HelloWorld[1856:18093] THREAD WARNING: ['Media'] took '15.878906' ms. Plugin should use a background thread.
+2015-05-13 17:04:37.126 HelloWorld[1856:18093] Finished playing audio sample '/recording.m4a'
+2015-05-13 17:05:10.891 HelloWorld[2091:19782] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/4F78FF32-9E9A-4348-A6A1-F6AEB7FF4DC6/Library/Cookies/Cookies.binarycookies
+2015-05-13 17:05:11.011 HelloWorld[2091:19782] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-13 17:05:11.011 HelloWorld[2091:19782] Multi-tasking -> Device: YES, App: YES
+2015-05-13 17:05:11.023 HelloWorld[2091:19782] Unlimited access to network resources
+2015-05-13 17:05:11.026 HelloWorld[2091:19782] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-13 17:05:11.157 HelloWorld[2091:19782] [CDVTimer][file] 8.257985ms
+2015-05-13 17:05:11.157 HelloWorld[2091:19782] [CDVTimer][TotalPluginStartup] 8.515000ms
+2015-05-13 17:05:11.384 HelloWorld[2091:19782] Resetting plugins due to page load.
+2015-05-13 17:05:11.546 HelloWorld[2091:19782] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/45B428FE-0494-445B-B8DB-B94FA21E0561/HelloWorld.app/www/index.html
+2015-05-13 17:05:12.951 HelloWorld[2091:19782] Started recording audio sample '/recording.m4a'
+2015-05-13 17:05:12.951 HelloWorld[2091:19782] THREAD WARNING: ['Media'] took '97.762939' ms. Plugin should use a background thread.
+2015-05-13 17:05:13.780 HelloWorld[2091:19782] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:05:13.787 HelloWorld[2091:19782] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:05:17.827 HelloWorld[2091:19782] Started recording audio sample '/recording.m4a'
+2015-05-13 17:05:19.788 HelloWorld[2091:19782] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:05:19.793 HelloWorld[2091:19782] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:05:25.211 HelloWorld[2091:19782] Started recording audio sample '/recording.m4a'
+2015-05-13 17:05:40.568 HelloWorld[2091:19782] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:05:40.572 HelloWorld[2091:19782] Finished recording audio sample '/recording.m4a'
+2015-05-13 17:05:45.366 HelloWorld[2091:19782] Started recording audio sample '/recording.m4a'
+2015-05-13 17:07:45.836 HelloWorld[2091:19782] Stopped recording audio sample '/recording.m4a'
+2015-05-13 17:07:45.842 HelloWorld[2091:19782] Finished recording audio sample '/recording.m4a'
+2015-05-20 20:41:03.359 HelloWorld[629:7005] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/CA96EF0C-60AB-45D5-AF04-494CD178ECC0/Library/Cookies/Cookies.binarycookies
+2015-05-20 20:41:04.209 HelloWorld[629:7005] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-20 20:41:04.209 HelloWorld[629:7005] Multi-tasking -> Device: YES, App: YES
+2015-05-20 20:41:04.231 HelloWorld[629:7005] Unlimited access to network resources
+2015-05-20 20:41:04.269 HelloWorld[629:7005] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-20 20:41:04.878 HelloWorld[629:7005] [CDVTimer][file] 33.496022ms
+2015-05-20 20:41:04.879 HelloWorld[629:7005] [CDVTimer][TotalPluginStartup] 33.892035ms
+2015-05-20 20:41:05.425 HelloWorld[629:7005] Resetting plugins due to page load.
+2015-05-20 20:41:05.787 HelloWorld[629:7005] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/B1BA6788-5BFE-487E-A70F-4C318E9F632B/HelloWorld.app/www/index.html
+2015-05-20 20:41:18.373 HelloWorld[629:7005] THREAD WARNING: ['File'] took '7487.044922' ms. Plugin should use a background thread.
+2015-05-20 20:41:18.781 HelloWorld[629:7005] Started recording audio sample '/recording.m4a'
+2015-05-20 20:41:18.782 HelloWorld[629:7005] THREAD WARNING: ['Media'] took '394.309082' ms. Plugin should use a background thread.
+2015-06-01 15:06:09.909 HelloWorld[941:20300] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/6371A303-A7EF-40AD-AEF0-667C841D081F/Library/Cookies/Cookies.binarycookies
+2015-06-01 15:06:10.308 HelloWorld[941:20300] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 15:06:10.308 HelloWorld[941:20300] Multi-tasking -> Device: YES, App: YES
+2015-06-01 15:06:10.346 HelloWorld[941:20300] Unlimited access to network resources
+2015-06-01 15:06:10.354 HelloWorld[941:20300] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 15:06:10.843 HelloWorld[941:20300] [CDVTimer][file] 36.033988ms
+2015-06-01 15:06:10.843 HelloWorld[941:20300] [CDVTimer][TotalPluginStartup] 36.244988ms
+2015-06-01 15:06:11.250 HelloWorld[941:20300] Resetting plugins due to page load.
+2015-06-01 15:06:11.424 HelloWorld[941:20300] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/3B6BA618-2C6D-4F04-B816-85120A40ACCD/HelloWorld.app/www/index.html
+2015-06-01 15:06:20.208 HelloWorld[941:20300] THREAD WARNING: ['File'] took '4112.073975' ms. Plugin should use a background thread.
+2015-06-01 15:06:21.827 HelloWorld[941:20300] Started recording audio sample '/recording.m4a'
+2015-06-01 15:06:21.827 HelloWorld[941:20300] THREAD WARNING: ['Media'] took '1603.989990' ms. Plugin should use a background thread.
+2015-06-01 15:06:24.960 HelloWorld[941:20300] Stopped recording audio sample '/recording.m4a'
+2015-06-01 15:06:24.966 HelloWorld[941:20300] Finished recording audio sample '/recording.m4a'
+2015-06-01 15:06:29.832 HelloWorld[941:20300] Playing audio sample '/recording.m4a'
+2015-06-01 15:06:29.838 HelloWorld[941:20300] THREAD WARNING: ['Media'] took '14.340088' ms. Plugin should use a background thread.
+2015-06-01 15:06:32.985 HelloWorld[941:20300] Finished playing audio sample '/recording.m4a'
+2015-06-01 15:08:46.361 HelloWorld[1109:21914] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/654C93F9-477D-49B2-AFDF-918A1CF60476/Library/Cookies/Cookies.binarycookies
+2015-06-01 15:08:46.470 HelloWorld[1109:21914] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 15:08:46.470 HelloWorld[1109:21914] Multi-tasking -> Device: YES, App: YES
+2015-06-01 15:08:46.483 HelloWorld[1109:21914] Unlimited access to network resources
+2015-06-01 15:08:46.495 HelloWorld[1109:21914] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 15:08:46.607 HelloWorld[1109:21914] [CDVTimer][file] 8.004963ms
+2015-06-01 15:08:46.607 HelloWorld[1109:21914] [CDVTimer][TotalPluginStartup] 8.190989ms
+2015-06-01 15:08:46.808 HelloWorld[1109:21914] Resetting plugins due to page load.
+2015-06-01 15:08:46.945 HelloWorld[1109:21914] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/9E701257-BFD3-46B0-A531-229083FFB4AE/HelloWorld.app/www/index.html
+2015-06-01 15:08:50.414 HelloWorld[1109:21914] THREAD WARNING: ['File'] took '1991.705811' ms. Plugin should use a background thread.
+2015-06-01 15:09:18.848 HelloWorld[1109:21914] THREAD WARNING: ['File'] took '28430.434814' ms. Plugin should use a background thread.
+2015-06-01 15:09:20.536 HelloWorld[1109:21914] Started recording audio sample '/recording.m4a'
+2015-06-01 15:09:20.537 HelloWorld[1109:21914] THREAD WARNING: ['Media'] took '1668.719971' ms. Plugin should use a background thread.
+2015-06-01 15:11:06.590 HelloWorld[1262:23019] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/A6CA947C-4DED-4FF7-8747-D0DEDA5ED010/Library/Cookies/Cookies.binarycookies
+2015-06-01 15:11:07.336 HelloWorld[1262:23019] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 15:11:07.337 HelloWorld[1262:23019] Multi-tasking -> Device: YES, App: YES
+2015-06-01 15:11:07.716 HelloWorld[1262:23019] Unlimited access to network resources
+2015-06-01 15:11:07.742 HelloWorld[1262:23019] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 15:11:07.880 HelloWorld[1262:23019] [CDVTimer][file] 22.827983ms
+2015-06-01 15:11:07.880 HelloWorld[1262:23019] [CDVTimer][TotalPluginStartup] 23.013949ms
+2015-06-01 15:11:08.379 HelloWorld[1262:23019] Resetting plugins due to page load.
+2015-06-01 15:11:08.640 HelloWorld[1262:23019] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/D3BD92EE-E9BC-46AE-B205-639219DB34B8/HelloWorld.app/www/index.html
+2015-06-01 15:11:11.480 HelloWorld[1262:23019] THREAD WARNING: ['File'] took '1517.340088' ms. Plugin should use a background thread.
+2015-06-01 15:11:46.017 HelloWorld[1262:23019] THREAD WARNING: ['File'] took '34532.365234' ms. Plugin should use a background thread.
+2015-06-01 15:11:47.527 HelloWorld[1262:23019] Started recording audio sample '/recording.m4a'
+2015-06-01 15:11:47.528 HelloWorld[1262:23019] THREAD WARNING: ['Media'] took '1499.461182' ms. Plugin should use a background thread.
+2015-06-01 15:15:02.027 HelloWorld[1262:23972] Terminating since there is no system app.
+2015-06-01 15:53:35.582 HelloWorld[2628:39275] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/58AA114A-F883-46E8-A575-6E2A33396641/Library/Cookies/Cookies.binarycookies
+2015-06-01 15:53:35.741 HelloWorld[2628:39275] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 15:53:35.742 HelloWorld[2628:39275] Multi-tasking -> Device: YES, App: YES
+2015-06-01 15:53:35.763 HelloWorld[2628:39275] Unlimited access to network resources
+2015-06-01 15:53:35.774 HelloWorld[2628:39275] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 15:53:35.905 HelloWorld[2628:39275] [CDVTimer][file] 15.618026ms
+2015-06-01 15:53:35.905 HelloWorld[2628:39275] [CDVTimer][TotalPluginStartup] 15.810013ms
+2015-06-01 15:53:36.211 HelloWorld[2628:39275] Resetting plugins due to page load.
+2015-06-01 15:53:36.364 HelloWorld[2628:39275] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/2AD41842-63E9-42B8-8AFD-DE43E36CF553/HelloWorld.app/www/index.html
+2015-06-01 15:53:57.615 HelloWorld[2628:39275] THREAD WARNING: ['File'] took '1615.479004' ms. Plugin should use a background thread.
+2015-06-01 17:02:36.693 HelloWorld[3599:56390] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/1DF5BC9D-C861-48AC-BEE5-6A9F3DD4A07D/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:02:37.247 HelloWorld[3599:56390] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:02:37.248 HelloWorld[3599:56390] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:02:37.261 HelloWorld[3599:56390] Unlimited access to network resources
+2015-06-01 17:02:37.286 HelloWorld[3599:56390] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:02:37.414 HelloWorld[3599:56390] [CDVTimer][file] 18.027961ms
+2015-06-01 17:02:37.414 HelloWorld[3599:56390] [CDVTimer][TotalPluginStartup] 18.212974ms
+2015-06-01 17:02:37.702 HelloWorld[3599:56390] Resetting plugins due to page load.
+2015-06-01 17:02:37.879 HelloWorld[3599:56390] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/2307234A-2530-4724-BF1A-DACD8337D64B/HelloWorld.app/www/index.html
+2015-06-01 17:02:50.360 HelloWorld[3599:56390] THREAD WARNING: ['File'] took '2217.320801' ms. Plugin should use a background thread.
+2015-06-01 17:02:52.488 HelloWorld[3599:56390] THREAD WARNING: ['File'] took '2123.438232' ms. Plugin should use a background thread.
+2015-06-01 17:03:22.977 HelloWorld[3747:57097] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/AD28D091-8783-4FD5-B99C-15CC8C167541/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:03:23.115 HelloWorld[3747:57097] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:03:23.115 HelloWorld[3747:57097] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:03:23.123 HelloWorld[3747:57097] Unlimited access to network resources
+2015-06-01 17:03:23.127 HelloWorld[3747:57097] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:03:23.232 HelloWorld[3747:57097] [CDVTimer][file] 2.017021ms
+2015-06-01 17:03:23.232 HelloWorld[3747:57097] [CDVTimer][TotalPluginStartup] 2.209008ms
+2015-06-01 17:03:23.294 HelloWorld[3747:57097] Resetting plugins due to page load.
+2015-06-01 17:03:23.433 HelloWorld[3747:57097] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/F8CFD487-63B0-4D89-A472-242D0FBDDDA5/HelloWorld.app/www/index.html
+2015-06-01 17:03:27.775 HelloWorld[3747:57097] THREAD WARNING: ['File'] took '1537.729980' ms. Plugin should use a background thread.
+2015-06-01 17:03:29.159 HelloWorld[3747:57097] THREAD WARNING: ['File'] took '1379.246826' ms. Plugin should use a background thread.
+2015-06-01 17:04:30.727 HelloWorld[4027:58211] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/6D057D5C-A78F-4CE7-91F8-EE99D39817A1/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:04:30.841 HelloWorld[4027:58211] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:04:30.842 HelloWorld[4027:58211] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:04:30.848 HelloWorld[4027:58211] Unlimited access to network resources
+2015-06-01 17:04:30.852 HelloWorld[4027:58211] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:04:30.959 HelloWorld[4027:58211] [CDVTimer][file] 2.322018ms
+2015-06-01 17:04:30.959 HelloWorld[4027:58211] [CDVTimer][TotalPluginStartup] 2.525985ms
+2015-06-01 17:04:31.023 HelloWorld[4027:58211] Resetting plugins due to page load.
+2015-06-01 17:04:31.143 HelloWorld[4027:58211] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/0DC488BA-4221-42F6-B73D-ED28BDFCA15B/HelloWorld.app/www/index.html
+2015-06-01 17:04:34.336 HelloWorld[4027:58211] THREAD WARNING: ['File'] took '1689.932129' ms. Plugin should use a background thread.
+2015-06-01 17:04:35.641 HelloWorld[4027:58211] THREAD WARNING: ['File'] took '1301.336914' ms. Plugin should use a background thread.
+2015-06-01 17:28:48.585 HelloWorld[4460:65501] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/B2C21B23-2D1F-43F1-8BDD-25173AD78E2E/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:28:48.749 HelloWorld[4460:65501] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:28:48.750 HelloWorld[4460:65501] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:28:48.758 HelloWorld[4460:65501] Unlimited access to network resources
+2015-06-01 17:28:48.773 HelloWorld[4460:65501] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:28:48.935 HelloWorld[4460:65501] [CDVTimer][file] 18.709004ms
+2015-06-01 17:28:48.935 HelloWorld[4460:65501] [CDVTimer][TotalPluginStartup] 18.903971ms
+2015-06-01 17:28:49.214 HelloWorld[4460:65501] Resetting plugins due to page load.
+2015-06-01 17:28:49.377 HelloWorld[4460:65501] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/C6458417-2400-4C27-B805-CF36CE47AD02/HelloWorld.app/www/index.html
+2015-06-01 17:28:54.056 HelloWorld[4460:65501] THREAD WARNING: ['File'] took '1672.150635' ms. Plugin should use a background thread.
+2015-06-01 17:28:55.391 HelloWorld[4460:65501] THREAD WARNING: ['File'] took '1331.533936' ms. Plugin should use a background thread.
+2015-06-01 17:29:17.107 HelloWorld[4605:66123] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/43070510-AD07-48DD-B19F-7A3659E00673/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:29:17.233 HelloWorld[4605:66123] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:29:17.233 HelloWorld[4605:66123] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:29:17.241 HelloWorld[4605:66123] Unlimited access to network resources
+2015-06-01 17:29:17.244 HelloWorld[4605:66123] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:29:17.355 HelloWorld[4605:66123] [CDVTimer][file] 2.775013ms
+2015-06-01 17:29:17.355 HelloWorld[4605:66123] [CDVTimer][TotalPluginStartup] 3.026009ms
+2015-06-01 17:29:17.418 HelloWorld[4605:66123] Resetting plugins due to page load.
+2015-06-01 17:29:17.542 HelloWorld[4605:66123] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/36F42E7C-F5B4-444E-861A-0B9ADE6DAD15/HelloWorld.app/www/index.html
+2015-06-01 17:29:20.504 HelloWorld[4605:66123] THREAD WARNING: ['File'] took '1489.358887' ms. Plugin should use a background thread.
+2015-06-01 17:29:21.653 HelloWorld[4605:66123] THREAD WARNING: ['File'] took '1145.331787' ms. Plugin should use a background thread.
+2015-06-01 17:29:42.720 HelloWorld[4747:66706] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/12AE177D-37B1-4FA1-A686-D276BE9C92DA/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:29:42.842 HelloWorld[4747:66706] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:29:42.842 HelloWorld[4747:66706] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:29:42.844 HelloWorld[4747:66706] Unlimited access to network resources
+2015-06-01 17:29:42.848 HelloWorld[4747:66706] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:29:42.953 HelloWorld[4747:66706] [CDVTimer][file] 2.048969ms
+2015-06-01 17:29:42.953 HelloWorld[4747:66706] [CDVTimer][TotalPluginStartup] 2.271950ms
+2015-06-01 17:29:43.013 HelloWorld[4747:66706] Resetting plugins due to page load.
+2015-06-01 17:29:43.171 HelloWorld[4747:66706] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/298F1F60-09B3-46E3-AEF4-AC6F4B23FBF5/HelloWorld.app/www/index.html
+2015-06-01 17:29:45.896 HelloWorld[4747:66706] THREAD WARNING: ['File'] took '1362.589111' ms. Plugin should use a background thread.
+2015-06-01 17:29:47.161 HelloWorld[4747:66706] THREAD WARNING: ['File'] took '1261.260010' ms. Plugin should use a background thread.
+2015-06-01 17:30:02.546 HelloWorld[4889:67207] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/0B3F85EB-41D3-479E-B774-8A082E6F87F7/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:30:02.669 HelloWorld[4889:67207] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:30:02.670 HelloWorld[4889:67207] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:30:02.672 HelloWorld[4889:67207] Unlimited access to network resources
+2015-06-01 17:30:02.675 HelloWorld[4889:67207] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:30:02.783 HelloWorld[4889:67207] [CDVTimer][file] 1.987040ms
+2015-06-01 17:30:02.784 HelloWorld[4889:67207] [CDVTimer][TotalPluginStartup] 2.192974ms
+2015-06-01 17:30:02.849 HelloWorld[4889:67207] Resetting plugins due to page load.
+2015-06-01 17:30:02.985 HelloWorld[4889:67207] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/0F63BC8A-5725-4153-84FA-7F263891EC35/HelloWorld.app/www/index.html
+2015-06-01 17:30:05.336 HelloWorld[4889:67207] THREAD WARNING: ['File'] took '1337.632812' ms. Plugin should use a background thread.
+2015-06-01 17:30:06.337 HelloWorld[4889:67207] THREAD WARNING: ['File'] took '996.054199' ms. Plugin should use a background thread.
+2015-06-01 17:30:28.492 HelloWorld[5031:67789] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/A7D09A2D-10EE-438A-9302-AE6F1AC0CCED/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:30:28.624 HelloWorld[5031:67789] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:30:28.625 HelloWorld[5031:67789] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:30:28.638 HelloWorld[5031:67789] Unlimited access to network resources
+2015-06-01 17:30:28.641 HelloWorld[5031:67789] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:30:28.746 HelloWorld[5031:67789] [CDVTimer][file] 2.116024ms
+2015-06-01 17:30:28.746 HelloWorld[5031:67789] [CDVTimer][TotalPluginStartup] 2.315998ms
+2015-06-01 17:30:28.812 HelloWorld[5031:67789] Resetting plugins due to page load.
+2015-06-01 17:30:28.936 HelloWorld[5031:67789] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/7D6E4265-D26F-461A-B823-A0A20CF3589C/HelloWorld.app/www/index.html
+2015-06-01 17:30:31.768 HelloWorld[5031:67789] THREAD WARNING: ['File'] took '1481.255859' ms. Plugin should use a background thread.
+2015-06-01 17:30:32.763 HelloWorld[5031:67789] THREAD WARNING: ['File'] took '991.051758' ms. Plugin should use a background thread.
+2015-06-01 17:31:22.974 HelloWorld[5175:68505] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/E5234EA0-64F9-487A-8ABC-33757B20D2E4/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:31:23.111 HelloWorld[5175:68505] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:31:23.111 HelloWorld[5175:68505] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:31:23.113 HelloWorld[5175:68505] Unlimited access to network resources
+2015-06-01 17:31:23.117 HelloWorld[5175:68505] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:31:23.221 HelloWorld[5175:68505] [CDVTimer][file] 2.134979ms
+2015-06-01 17:31:23.221 HelloWorld[5175:68505] [CDVTimer][TotalPluginStartup] 2.336025ms
+2015-06-01 17:31:23.286 HelloWorld[5175:68505] Resetting plugins due to page load.
+2015-06-01 17:31:23.425 HelloWorld[5175:68505] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/5576184A-3ADA-438A-8AE4-25DAEF0139DE/HelloWorld.app/www/index.html
+2015-06-01 17:31:27.560 HelloWorld[5175:68505] THREAD WARNING: ['File'] took '2057.043945' ms. Plugin should use a background thread.
+2015-06-01 17:33:35.675 HelloWorld[5175:69130] Terminating since there is no system app.
+2015-06-01 17:36:29.847 HelloWorld[5697:71739] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/ECB7ECF5-7388-4FC0-A10C-B53BE13AA6E7/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:36:30.026 HelloWorld[5697:71739] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:36:30.026 HelloWorld[5697:71739] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:36:30.038 HelloWorld[5697:71739] Unlimited access to network resources
+2015-06-01 17:36:30.051 HelloWorld[5697:71739] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:36:30.180 HelloWorld[5697:71739] [CDVTimer][file] 19.869030ms
+2015-06-01 17:36:30.180 HelloWorld[5697:71739] [CDVTimer][TotalPluginStartup] 20.070970ms
+2015-06-01 17:36:30.353 HelloWorld[5697:71739] Resetting plugins due to page load.
+2015-06-01 17:36:30.489 HelloWorld[5697:71739] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/8F26AAFC-7564-4CCE-B8A1-C93DDD82FB0B/HelloWorld.app/www/index.html
+2015-06-01 17:36:35.124 HelloWorld[5697:71739] THREAD WARNING: ['File'] took '1454.032959' ms. Plugin should use a background thread.
+2015-06-01 17:36:43.937 HelloWorld[5697:71739] THREAD WARNING: ['File'] took '8810.023926' ms. Plugin should use a background thread.
+2015-06-01 17:36:45.600 HelloWorld[5697:71739] Started recording audio sample '/recording.m4a'
+2015-06-01 17:36:45.601 HelloWorld[5697:71739] THREAD WARNING: ['Media'] took '1654.346924' ms. Plugin should use a background thread.
+2015-06-01 17:38:25.006 HelloWorld[5851:72754] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/9A8864B4-0EE8-4D4B-B761-ADD7DC0597C7/Library/Cookies/Cookies.binarycookies
+2015-06-01 17:38:25.090 HelloWorld[5851:72754] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 17:38:25.091 HelloWorld[5851:72754] Multi-tasking -> Device: YES, App: YES
+2015-06-01 17:38:25.105 HelloWorld[5851:72754] Unlimited access to network resources
+2015-06-01 17:38:25.108 HelloWorld[5851:72754] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 17:38:25.217 HelloWorld[5851:72754] [CDVTimer][file] 2.285004ms
+2015-06-01 17:38:25.217 HelloWorld[5851:72754] [CDVTimer][TotalPluginStartup] 2.517998ms
+2015-06-01 17:38:25.297 HelloWorld[5851:72754] Resetting plugins due to page load.
+2015-06-01 17:38:25.418 HelloWorld[5851:72754] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/3957019A-45BC-47CC-85A7-47E0F6EA507F/HelloWorld.app/www/index.html
+2015-06-01 17:38:32.440 HelloWorld[5851:72754] THREAD WARNING: ['File'] took '1738.326172' ms. Plugin should use a background thread.
+2015-06-01 17:38:36.800 HelloWorld[5851:72754] THREAD WARNING: ['File'] took '4355.492920' ms. Plugin should use a background thread.
+2015-06-01 17:38:36.866 HelloWorld[5851:72754] Started recording audio sample '/recording.m4a'
+2015-06-01 17:38:36.866 HelloWorld[5851:72754] THREAD WARNING: ['Media'] took '61.135010' ms. Plugin should use a background thread.
+2015-06-01 17:38:47.080 HelloWorld[5851:72754] Stopped recording audio sample '/recording.m4a'
+2015-06-01 17:38:47.087 HelloWorld[5851:72754] Finished recording audio sample '/recording.m4a'
+2015-06-01 18:14:05.300 HelloWorld[5851:72754] Started recording audio sample '/recording.m4a'
+2015-06-01 18:14:05.309 HelloWorld[5851:72754] THREAD WARNING: ['Media'] took '54.989258' ms. Plugin should use a background thread.
+2015-06-01 18:14:07.656 HelloWorld[5851:72754] Stopped recording audio sample '/recording.m4a'
+2015-06-01 18:14:07.662 HelloWorld[5851:72754] Finished recording audio sample '/recording.m4a'
+2015-06-01 18:14:10.796 HelloWorld[5851:72754] Playing audio sample '/recording.m4a'
+2015-06-01 18:14:10.803 HelloWorld[5851:72754] THREAD WARNING: ['Media'] took '105.749023' ms. Plugin should use a background thread.
+2015-06-01 18:14:13.189 HelloWorld[5851:72754] Finished playing audio sample '/recording.m4a'
+2015-06-01 18:14:58.473 HelloWorld[5851:72754] Started recording audio sample '/recording.m4a'
+2015-06-01 18:15:02.856 HelloWorld[5851:72754] Stopped recording audio sample '/recording.m4a'
+2015-06-01 18:15:02.879 HelloWorld[5851:72754] THREAD WARNING: ['File'] took '19.739990' ms. Plugin should use a background thread.
+2015-06-01 18:15:02.879 HelloWorld[5851:72754] Finished recording audio sample '/recording.m4a'
+2015-06-01 18:15:05.440 HelloWorld[5851:72754] Playing audio sample '/recording.m4a'
+2015-06-01 18:15:05.451 HelloWorld[5851:72754] THREAD WARNING: ['Media'] took '11.563232' ms. Plugin should use a background thread.
+2015-06-01 18:15:07.831 HelloWorld[5851:72754] Finished playing audio sample '/recording.m4a'
+2015-06-01 18:16:55.097 HelloWorld[6264:85639] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/9A05CED5-02B2-44C5-AD2C-20D42917B633/Library/Cookies/Cookies.binarycookies
+2015-06-01 18:16:55.382 HelloWorld[6264:85639] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-01 18:16:55.383 HelloWorld[6264:85639] Multi-tasking -> Device: YES, App: YES
+2015-06-01 18:16:55.402 HelloWorld[6264:85639] Unlimited access to network resources
+2015-06-01 18:16:55.417 HelloWorld[6264:85639] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-01 18:16:55.557 HelloWorld[6264:85639] [CDVTimer][file] 22.585034ms
+2015-06-01 18:16:55.558 HelloWorld[6264:85639] [CDVTimer][TotalPluginStartup] 22.773027ms
+2015-06-01 18:16:56.062 HelloWorld[6264:85639] Resetting plugins due to page load.
+2015-06-01 18:16:56.390 HelloWorld[6264:85639] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/0E62485C-34D6-4BFE-BE25-2011E5CD8031/HelloWorld.app/www/index.html
+2015-06-01 18:16:56.405 HelloWorld[6264:85639] THREAD WARNING: ['File'] took '10.793945' ms. Plugin should use a background thread.
+2015-06-01 18:17:02.265 HelloWorld[6264:85639] THREAD WARNING: ['File'] took '1719.364746' ms. Plugin should use a background thread.
+2015-06-01 18:17:05.857 HelloWorld[6264:85639] THREAD WARNING: ['File'] took '3588.781250' ms. Plugin should use a background thread.
+2015-06-01 18:17:06.059 HelloWorld[6264:85639] Started recording audio sample '/recording.m4a'
+2015-06-01 18:17:06.059 HelloWorld[6264:85639] THREAD WARNING: ['Media'] took '195.277100' ms. Plugin should use a background thread.
+2015-06-01 18:17:11.344 HelloWorld[6264:85639] Stopped recording audio sample '/recording.m4a'
+2015-06-01 18:17:11.349 HelloWorld[6264:85639] Finished recording audio sample '/recording.m4a'
+2015-06-01 18:26:12.458 HelloWorld[6264:87650] Terminating since there is no system app.
+2015-06-04 17:35:17.167 HelloWorld[18083:856111] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/F7A896C1-F248-4751-9E43-5741CCFA5359/Library/Cookies/Cookies.binarycookies
+2015-06-04 17:35:18.023 HelloWorld[18083:856111] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-04 17:35:18.023 HelloWorld[18083:856111] Multi-tasking -> Device: YES, App: YES
+2015-06-04 17:35:18.044 HelloWorld[18083:856111] Unlimited access to network resources
+2015-06-04 17:35:18.054 HelloWorld[18083:856111] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-04 17:35:18.559 HelloWorld[18083:856111] [CDVTimer][file] 24.233043ms
+2015-06-04 17:35:18.559 HelloWorld[18083:856111] [CDVTimer][TotalPluginStartup] 24.438977ms
+2015-06-04 17:35:19.126 HelloWorld[18083:856111] Resetting plugins due to page load.
+2015-06-04 17:35:19.380 HelloWorld[18083:856111] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/A3890103-8DFD-4544-8D7D-3CCE980F00D5/HelloWorld.app/www/index.html
+2015-06-04 17:35:22.663 HelloWorld[18083:856111] THREAD WARNING: ['File'] took '2061.337891' ms. Plugin should use a background thread.
+2015-06-04 17:35:25.808 HelloWorld[18083:856111] THREAD WARNING: ['File'] took '3141.752197' ms. Plugin should use a background thread.
+2015-06-04 17:35:27.480 HelloWorld[18083:856111] Started recording audio sample '/recording.m4a'
+2015-06-04 17:35:27.480 HelloWorld[18083:856111] THREAD WARNING: ['Media'] took '1664.347900' ms. Plugin should use a background thread.
+2015-06-04 17:35:29.512 HelloWorld[18083:856111] Stopped recording audio sample '/recording.m4a'
+2015-06-04 17:35:29.519 HelloWorld[18083:856111] Finished recording audio sample '/recording.m4a'
+2015-06-04 17:35:56.224 HelloWorld[18083:856111] Playing audio sample '/recording.m4a'
+2015-06-04 17:35:56.238 HelloWorld[18083:856111] THREAD WARNING: ['Media'] took '26.942871' ms. Plugin should use a background thread.
+2015-06-04 17:35:58.304 HelloWorld[18083:856111] Finished playing audio sample '/recording.m4a'
+2015-06-04 17:37:11.772 HelloWorld[18238:857185] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/A21BADA0-E33B-4167-9415-62900A835002/Library/Cookies/Cookies.binarycookies
+2015-06-04 17:37:11.920 HelloWorld[18238:857185] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-04 17:37:11.920 HelloWorld[18238:857185] Multi-tasking -> Device: YES, App: YES
+2015-06-04 17:37:12.023 HelloWorld[18238:857185] Unlimited access to network resources
+2015-06-04 17:37:12.044 HelloWorld[18238:857185] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-04 17:37:12.174 HelloWorld[18238:857185] [CDVTimer][file] 14.207006ms
+2015-06-04 17:37:12.174 HelloWorld[18238:857185] [CDVTimer][TotalPluginStartup] 14.437020ms
+2015-06-04 17:37:12.520 HelloWorld[18238:857185] Resetting plugins due to page load.
+2015-06-04 17:37:12.683 HelloWorld[18238:857185] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/0A4C0FFC-25AA-4746-9A94-7C83732E5DD4/HelloWorld.app/www/index.html
+2015-06-04 17:37:15.736 HelloWorld[18238:857185] THREAD WARNING: ['File'] took '1613.113281' ms. Plugin should use a background thread.
+2015-06-04 17:37:18.379 HelloWorld[18238:857185] THREAD WARNING: ['File'] took '2638.897949' ms. Plugin should use a background thread.
+2015-06-04 17:37:18.510 HelloWorld[18238:857185] Started recording audio sample '/recording.m4a'
+2015-06-04 17:37:18.511 HelloWorld[18238:857185] THREAD WARNING: ['Media'] took '123.369873' ms. Plugin should use a background thread.
+2015-06-04 17:37:23.432 HelloWorld[18238:857185] Stopped recording audio sample '/recording.m4a'
+2015-06-04 17:37:23.438 HelloWorld[18238:857185] Finished recording audio sample '/recording.m4a'
+2015-06-04 17:46:31.203 HelloWorld[18442:860141] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/DA7E72CC-2CFF-4C96-B06E-CE464103F822/Library/Cookies/Cookies.binarycookies
+2015-06-04 17:46:31.349 HelloWorld[18442:860141] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-04 17:46:31.350 HelloWorld[18442:860141] Multi-tasking -> Device: YES, App: YES
+2015-06-04 17:46:31.362 HelloWorld[18442:860141] Unlimited access to network resources
+2015-06-04 17:46:31.375 HelloWorld[18442:860141] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-04 17:46:31.496 HelloWorld[18442:860141] [CDVTimer][file] 16.125023ms
+2015-06-04 17:46:31.497 HelloWorld[18442:860141] [CDVTimer][TotalPluginStartup] 16.313016ms
+2015-06-04 17:46:31.828 HelloWorld[18442:860141] Resetting plugins due to page load.
+2015-06-04 17:46:31.957 HelloWorld[18442:860141] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/17F6FA5E-A27E-44E0-B6B3-C97090501460/HelloWorld.app/www/index.html
+2015-06-04 17:46:34.864 HelloWorld[18442:860141] THREAD WARNING: ['File'] took '1749.466064' ms. Plugin should use a background thread.
+2015-06-04 17:46:37.446 HelloWorld[18442:860141] THREAD WARNING: ['File'] took '2577.937988' ms. Plugin should use a background thread.
+2015-06-04 17:46:37.768 HelloWorld[18442:860141] Started recording audio sample '/recording.m4a'
+2015-06-04 17:46:37.768 HelloWorld[18442:860141] THREAD WARNING: ['Media'] took '314.333984' ms. Plugin should use a background thread.
+2015-06-04 17:46:39.813 HelloWorld[18442:860141] Stopped recording audio sample '/recording.m4a'
+2015-06-04 17:46:39.834 HelloWorld[18442:860141] THREAD WARNING: ['File'] took '15.600098' ms. Plugin should use a background thread.
+2015-06-04 17:46:39.835 HelloWorld[18442:860141] Finished recording audio sample '/recording.m4a'
+2015-06-04 17:48:45.569 HelloWorld[18594:861263] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Data/Application/4E296CDF-A6CD-4D54-B465-A1006E26F146/Library/Cookies/Cookies.binarycookies
+2015-06-04 17:48:45.716 HelloWorld[18594:861263] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-04 17:48:45.716 HelloWorld[18594:861263] Multi-tasking -> Device: YES, App: YES
+2015-06-04 17:48:45.727 HelloWorld[18594:861263] Unlimited access to network resources
+2015-06-04 17:48:45.741 HelloWorld[18594:861263] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-04 17:48:45.860 HelloWorld[18594:861263] [CDVTimer][file] 13.701022ms
+2015-06-04 17:48:45.860 HelloWorld[18594:861263] [CDVTimer][TotalPluginStartup] 13.893008ms
+2015-06-04 17:48:46.110 HelloWorld[18594:861263] Resetting plugins due to page load.
+2015-06-04 17:48:46.242 HelloWorld[18594:861263] Finished load of: file:///Users/pearson/Library/Developer/CoreSimulator/Devices/A9C47E14-1EE2-4AB9-BCFF-9C9E41C9774B/data/Containers/Bundle/Application/24D437AC-8E50-4A69-A21D-49729DA88311/HelloWorld.app/www/index.html
+2015-06-04 17:48:49.311 HelloWorld[18594:861263] Started recording audio sample '/recording.m4a'
+2015-06-04 17:48:49.312 HelloWorld[18594:861263] THREAD WARNING: ['Media'] took '119.630127' ms. Plugin should use a background thread.
+2015-06-04 17:48:52.824 HelloWorld[18594:861263] Stopped recording audio sample '/recording.m4a'
+2015-06-04 17:48:52.830 HelloWorld[18594:861263] Finished recording audio sample '/recording.m4a'

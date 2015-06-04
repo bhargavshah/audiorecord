@@ -8,6 +8,7 @@
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/wav.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/base64.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/encoder.js"></script>
     <script type="text/javascript" src="js/speex.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
@@ -51,14 +52,16 @@
                 //first create the file
                 window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, function(fileSystem){
                     _root = fileSystem.root;
-                    fileSystem.root.getFile(recordFileName, {
+                    // alert('root fullpath ' + _root.fullPath);
+                    fileSystem.root.getFile(/*'documents:///' + */recordFileName, {
                         create: true,
                         exclusive: false
                     }, function(fileEntry){
                         _fileEntry = fileEntry;
-                        log("File " + recordFileName + " created at " + fileEntry.fullPath);
+                        // alert('FileEntry' + JSON.stringify(fileEntry));
+                        // alert("File " + recordFileName + " created at " + fileEntry.fullPath);
                         mediaVar = new Media(fileEntry.fullPath, function(){
-                            log("Media created successfully");
+                            alert("Media created successfully");
                         }, onError, mediaStatusCallback); //of new Media
                         onMediaCreated();
                     }, onError); //of getFile
@@ -134,7 +137,7 @@
         {
             if (typeof err.message != 'undefined')
                 err = err.message;
-            alert("Error : " + err);
+            alert("Error : " + err.code);
         }
 
         function log(message)
@@ -143,21 +146,6 @@
                 console.log(message);
             else
                 console.info(message);
-        }
-
-        function startFileManipulation(file) {
-            _parsedWav = new wav(file);
-            _parsedWav.onloadend = function () {
-                letsEncode();
-            };
-        }
-
-        function letsEncode() {
-            $(document).on('tn.recorder.encoded', function(e, responseData) {
-                logger(responseData);
-            });
-            var encoder = new Encoder();
-            encoder.encodeSPXB64( _parsedWav.dataSamples, 8);
         }
 
         function encoding(file) {
@@ -197,10 +185,8 @@
             reader.onloadend = function(e) {
                 buf = e.target.result;
                 var bufStr = ab2str(buf);
-                // var enc = btoa(bufStr);
-                // logger(enc); 
-                logger(bufStr);
-                // alert(typeof str2ab(bufStr))
+                // var base64EncodedString = Base64.encode(bufStr);
+                logger(bufStr.length);
             }
             reader.readAsArrayBuffer(file);
             
@@ -241,12 +227,63 @@
             // file.type = "audio/wav";
             // startFileManipulation(file);
             logger(file);
-            encoding(file);
+            // encoding(file);
+            playbackFromData(file);
         }
 
         function fileFailure() {
             alert("file failure");
         }
+
+        function playbackFromData(file) {  // This is the encode function. Trying playback temporarily
+                // var reader = new FileReader();
+                // var buf, encodedString;
+                // var that = this;
+                // reader.onloadend = function(e) {
+                //     alert('read as array buffer done');
+                //     buf = e.target.result;
+                //     // _encoder.arrayBufferToBase64(buf);
+                //     setupHTMLAudioPlayback( getAudioSourceElement(buf) );
+                // }
+                // reader.readAsArrayBuffer(file);
+
+                var reader = new FileReader();
+                var dataurl;
+                var that = this;
+                reader.onloadend = function(e) {
+                    // alert('read as array buffer done');
+                    dataurl = e.target.result;
+                    // alert(dataurl);
+                    var $source = $( '<source src="' + dataurl + '" type="audio/mp4" />' );
+                    // _encoder.arrayBufferToBase64(buf);
+                    setupHTMLAudioPlayback( $source );
+                }
+                reader.readAsDataURL(file);
+            }
+
+            function getAudioSourceElement( buffer ) {
+                alert("buffer " + JSON.stringify(buffer) );
+                var blob = new Blob( [ buffer ] , { type: 'audio/m4a' });
+                alert('blob' + blob instanceof Blob);
+                var blobURL = URL.createObjectURL( blob );
+                var $source = $( '<source src="' + blobURL + '" type="audio/m4a" />' );
+                return $source;
+            }
+
+            function setupHTMLAudioPlayback( source ) {
+                var _$audio = $( '<audio controls/>' ).appendTo($('body'));
+                _$audio.html( source );
+                var _audio = _$audio[0];
+                _audio.load();
+                _audio.play();
+
+                alert('can you play MP3? : ' + canPlayMP3() );
+            }
+
+            function canPlayMP3() {
+                var a = document.createElement('audio');
+                return !!(a.canPlayType && a.canPlayType('audio/mpeg;').replace(/no/, ''));
+            }
 
         function readEntriessuccess(entries) {
             var i;
